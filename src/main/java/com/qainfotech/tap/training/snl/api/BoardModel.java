@@ -39,6 +39,11 @@ public class BoardModel {
         steps.put(37, getStep(37, 2, 61));
         steps.put(68, getStep(68, 2, 90));
         steps.put(79, getStep(79, 2, 97));
+         steps.put(79, getStep(1, 2, 7));
+        steps.put(79, getStep(3, 2, 9));
+        steps.put(79, getStep(4, 2, 10));
+        steps.put(79, getStep(5, 2, 11));
+        steps.put(79, getStep(6, 2, 12));
         
         JSONObject data = new JSONObject();
         data.put("players", new JSONArray());
